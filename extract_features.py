@@ -11,6 +11,7 @@ extract all 101 classes. For instance, set class_limit = 8 to just
 extract features for the first 8 (alphabetical) classes in the dataset.
 Then set the same number when training models.
 """
+
 import numpy as np
 import os.path
 from data import DataSet
